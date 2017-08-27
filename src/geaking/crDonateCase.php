@@ -32,8 +32,7 @@ class crDonateCase extends PluginBase implements Listener {
 			private $cfg;
 
 			public function onEnable() {
-			$this->getLogger()->info("§2Плагин включен.");	
-			$this->getLogger()->info("§2Создатель vk.com/easymanfifa");	
+			$this->getLogger()->info("§2Плагин включен.");
 			$this->PP = $this->getServer()->getPluginManager()->getPlugin("PurePerms");
 			$this->eco = $this->getServer()->getPluginManager()->getPlugin("EconomyAPI");					
    			$this->getServer()->getPluginManager()->registerEvents($this, $this);
